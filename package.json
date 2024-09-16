@@ -11,9 +11,14 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "@cap-js/cds-types": "^0.6"
+    "@cap-js/cds-types": "^0.6",
+    "@sap/ux-specification": "UI5-1.128"
   },
   "scripts": {
-    "start": "cds-serve"
-  }
+    "start": "cds-serve",
+    "watch-empui": "cds watch --open empui/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/empui"
+  ]
 }
