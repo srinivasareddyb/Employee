@@ -1,6 +1,8 @@
 namespace EmployeeApplication;
 
-entity EmpMaster {
+using { managed } from '@sap/cds/common';
+
+entity EmpMaster : managed{
  key Eid : String;
      Name : String;
      Phone : Integer

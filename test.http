@@ -1,0 +1,9 @@
+### Get Employee
+
+GET http://localhost:4004/odata/v4/employee-services/EmpData 
+
+### Create 
+POST http://localhost:4004/odata/v4/employee-services/EmpData
+Content-Type: application/json
+
+{ "Eid": "4", "Name": "SMita", "Phone": 98907890}
